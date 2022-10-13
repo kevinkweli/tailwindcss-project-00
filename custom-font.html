@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Fonts</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <!-- Section Custom Fonts -->
+    <div class="py-16 bg-gray-50 min-h screen">
+        <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-6xl">
+            <!-- Fundamental div --> 
+            <div class="text-base mx-auto lg:max-w-none">
+                <p class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Fundamentals</p>
+                <h1 class="mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-900 sm:text-4xl">
+                    Using custom fonts in Tailwind CSS
+                </h1>
+            </div>
+            <!-- WORDS UNDERNEATH FUNDAMENTAL -->
+            <div class="mt-8 mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72">
+                <p class="text-lg text-gray-500">
+                    Let's look at how to use custom font with Tailwind CSS! I'll show you how to use a Google webfont, aswell as self-hosted fonts, using the <code class="bg-indigo-100 px-1 py-0.5 rounded text-indigo-500 font-mono">@font-face</code> CSS at-rule. By the  end of this screencast, you'll feel comfortable using any custom font for your next project.
+                </p>
+            </div>
+
+            <!-- Two divs in one-->
+            <div class="mt-16 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
+                <!-- div uno -->
+                <div class="max-w-5xl">
+                    <h2 class="mt-8 text-2xl text-gray-900 font-extrabold tracking-tight sm:text-3xl">
+                        Customizing font families
+                    </h2>
+                    <div class="mt-4 text-gray-500 space-y-6">
+                        <p class="text-lg mb-8">
+                            By default, Tailwind provides three fonts utililties: a cross-browser sans-serif stack, a cross-browser serif stack, and a cross-browser monospace stack. You can change add, or remove these by editing the <code class="bg-indigo-100 px-1 py-0.5 rounded text-indigo-500 italic font-mono">theme.fontfamily</code> section of your Tailwind config.
+                        </p>
+
+                        <!-- Buttons -->
+                        <div class="my-20 space-x-4">
+                            <a href="/index.html" class="p-4 px-4 pt-3 text-white baseline bg-indigo-600 rounded-lg">Read our docs</a>
+
+                            <a href="#" class="p-4 px-4 pt-3 text-indigo-500 shadow-xl baseline bg-white rounded-lg">View on Github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- div Dos -->
+                    <div class="max-w-5xl rounded overflow-hidden shadow-lg">
+                        <span class="flexflex justify-between items-center"><img src="/img/smart-house.png" alt="smart house"> <h2 class="mt-4 text-2xl font-semibold tracking-tight sm:text-3xl">Work<span class="text-indigo-700">cation</span></h2></span>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
